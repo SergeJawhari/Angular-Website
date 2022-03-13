@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #151515;
-    padding-top: 60px;
+    background-color: #F0B27A;
+    padding-top: 0px;
     height: 100%;
 }
 
@@ -11,3 +11,22 @@ body * {
     padding: 0;
     box-sizing: border-box;
 }
+
+.p-wrapper {
+    position: relative;
+}
+
+.p-wrapper::before {
+    content: '';
+    background: #CACFD2;
+    height: 100vh;
+    width: 25vw;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
