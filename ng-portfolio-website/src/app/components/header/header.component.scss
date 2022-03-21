@@ -26,7 +26,11 @@ header ul li a{
     text-decoration: none;
 }
 
-header ul li a:hover::after, header ul li a.is-active::after{
+header ul li a:hover{
+    color: #638A7E;
+}
+
+/*header ul li a:hover::after, header ul li a.is-active::after{
     content: '';
     background: #638A7E;
     height: 9px;
@@ -35,4 +39,4 @@ header ul li a:hover::after, header ul li a.is-active::after{
     z-index: -1;
     bottom: 0;
     right: -3px;
-}
+}*/

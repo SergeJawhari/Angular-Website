@@ -1,15 +1,7 @@
 body {
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #F0B27A;
-    padding-top: 0px;
-    height: 100%;
-}
-
-body * {
-    font-family: Roboto, "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-size: 18px;
 }
 
 p{
@@ -19,10 +11,15 @@ p{
 ul{
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 a, a:hover{
     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
 }
 
 /* COMMON */
